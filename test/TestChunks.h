@@ -31,6 +31,13 @@ struct TestChunk {
       }
       return;
     }
+    if (digits == 0) {
+      for (int i = 1; i < 300; i++) {
+        input.push_back(i);
+        input.push_back(i);
+        input.push_back(i);
+      }
+    }
   }
   std::vector<int> input;
   int rate;

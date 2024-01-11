@@ -16,10 +16,5 @@ public:
                   std::vector<int> &decompressed);
 
 private:
-  // Serialize the numbers to ASCII
-  void serializeToASCII(const std::vector<int> &numbers,
-                        std::string &serialized);
-  void desirializeFromASCII(const std::string &asciiser,
-                            std::vector<int> &numbers);
 };
 } // namespace CSL
